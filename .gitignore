@@ -1,0 +1,19 @@
+# MacOS
+.DS_Store
+
+# IDE
+.idea
+*~
+
+# Generated Files
+
+*.aux
+*.log
+*.blg
+
+# experiments/ directory
+
+experiments/datasets/**/models
+experiments/datasets/**/*_gleaner.txt
+experiments/datasets/**/*_dribble.txt
+experiments/datasets/**/*_learn_started.txt

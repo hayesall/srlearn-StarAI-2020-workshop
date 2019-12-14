@@ -1,0 +1,21 @@
+from srlearn.rdn import BoostedRDN
+from srlearn import Background
+from srlearn import example_data
+
+bk = Background(
+  modes=[
+    "friends(+person,-person).",
+    "friends(-person,+person).",
+    "cancer(+person).",
+    "smokes(+person).",
+  ]
+  use_std_logic_variables=True,
+)
+
+clf = BoostedRDN(
+  background=bk,
+  target="cancer",
+)
+
+clf.fit(example_data.train)
+clf.predict_proba(example_data.test)

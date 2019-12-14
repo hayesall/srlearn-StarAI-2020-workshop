@@ -1,0 +1,23 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{from} \PYG{n+nn}{srlearn.rdn} \PYG{k+kn}{import} \PYG{n}{BoostedRDN}
+\PYG{k+kn}{from} \PYG{n+nn}{srlearn} \PYG{k+kn}{import} \PYG{n}{Background}
+\PYG{k+kn}{from} \PYG{n+nn}{srlearn} \PYG{k+kn}{import} \PYG{n}{example\PYGZus{}data}
+
+\PYG{n}{bk} \PYG{o}{=} \PYG{n}{Background}\PYG{p}{(}
+  \PYG{n}{modes}\PYG{o}{=}\PYG{p}{[}
+    \PYG{l+s+s2}{\PYGZdq{}friends(+person,\PYGZhy{}person).\PYGZdq{}}\PYG{p}{,}
+    \PYG{l+s+s2}{\PYGZdq{}friends(\PYGZhy{}person,+person).\PYGZdq{}}\PYG{p}{,}
+    \PYG{l+s+s2}{\PYGZdq{}cancer(+person).\PYGZdq{}}\PYG{p}{,}
+    \PYG{l+s+s2}{\PYGZdq{}smokes(+person).\PYGZdq{}}\PYG{p}{,}
+  \PYG{p}{]}
+  \PYG{n}{use\PYGZus{}std\PYGZus{}logic\PYGZus{}variables}\PYG{o}{=}\PYG{n+nb+bp}{True}\PYG{p}{,}
+\PYG{p}{)}
+
+\PYG{n}{clf} \PYG{o}{=} \PYG{n}{BoostedRDN}\PYG{p}{(}
+  \PYG{n}{background}\PYG{o}{=}\PYG{n}{bk}\PYG{p}{,}
+  \PYG{n}{target}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}cancer\PYGZdq{}}\PYG{p}{,}
+\PYG{p}{)}
+
+\PYG{n}{clf}\PYG{o}{.}\PYG{n}{fit}\PYG{p}{(}\PYG{n}{example\PYGZus{}data}\PYG{o}{.}\PYG{n}{train}\PYG{p}{)}
+\PYG{n}{clf}\PYG{o}{.}\PYG{n}{predict\PYGZus{}proba}\PYG{p}{(}\PYG{n}{example\PYGZus{}data}\PYG{o}{.}\PYG{n}{test}\PYG{p}{)}
+\end{Verbatim}

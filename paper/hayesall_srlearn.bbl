@@ -1,0 +1,140 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{Abadi \bgroup et al\mbox.\egroup
+  }{2016}]{abadi2016tensorflow}
+Abadi, M.; Barham, P.; Chen, J.; Chen, Z.; Davis, A.; Dean, J.; Devin, M.;
+  Ghemawat, S.; Irving, G.; Isard, M.; Kudlur, M.; Levenberg, J.; Monga, R.;
+  Moore, S.; Murray, D.~G.; Steiner, B.; Tucker, P.; Vasudevan, V.; Warden, P.;
+  Wicke, M.; Yu, Y.; and Zheng, X.
+\newblock 2016.
+\newblock Tensorflow: A system for large-scale machine learning.
+\newblock In {\em 12th {USENIX} Symposium on Operating Systems Design and
+  Implementation ({OSDI} 16)},  265--283.
+\newblock Savannah, GA: {USENIX} Association.
+
+\bibitem[\protect\citeauthoryear{Bach \bgroup et al\mbox.\egroup
+  }{2015}]{bach2015hinge}
+Bach, S.~H.; Broecheler, M.; Huang, B.; and Getoor, L.
+\newblock 2015.
+\newblock Hinge-loss markov random fields and probabilistic soft logic.
+\newblock {\em Journal of Machine Learning Research (JMLR)}.
+
+\bibitem[\protect\citeauthoryear{Bingham \bgroup et al\mbox.\egroup
+  }{2019}]{bingham2019pyro}
+Bingham, E.; Chen, J.~P.; Jankowiak, M.; Obermeyer, F.; Pradhan, N.;
+  Karaletsos, T.; Singh, R.; Szerlip, P.; Horsfall, P.; and Goodman, N.~D.
+\newblock 2019.
+\newblock Pyro: Deep universal probabilistic programming.
+\newblock {\em Journal of Machine Learning Research} 20(28):1--6.
+
+\bibitem[\protect\citeauthoryear{Blondel and
+  Pedregosa}{2016}]{blondel2016lightning}
+Blondel, M., and Pedregosa, F.
+\newblock 2016.
+\newblock {Lightning: large-scale linear classification, regression and ranking
+  in Python}.
+
+\bibitem[\protect\citeauthoryear{Buitinck \bgroup et al\mbox.\egroup
+  }{2013}]{buitinck2013apidesign}
+Buitinck, L.; Louppe, G.; Blondel, M.; Pedregosa, F.; Mueller, A.; Grisel, O.;
+  Niculae, V.; Prettenhofer, P.; Gramfort, A.; Grobler, J.; Layton, R.;
+  VanderPlas, J.; Joly, A.; Holt, B.; and Varoquaux, G.
+\newblock 2013.
+\newblock {API} design for machine learning software: experiences from the
+  scikit-learn project.
+\newblock In {\em ECML PKDD Workshop: Languages for Data Mining and Machine
+  Learning},  108--122.
+
+\bibitem[\protect\citeauthoryear{{de Vazelhes} \bgroup et al\mbox.\egroup
+  }{2019}]{vazelhes2019metric}
+{de Vazelhes}, W.; {Carey}, C.; {Tang}, Y.; {Vauquier}, N.; and {Bellet}, A.
+\newblock 2019.
+\newblock metric-learn: {M}etric {L}earning {A}lgorithms in {P}ython.
+\newblock Technical report, arXiv:1908.04710.
+
+\bibitem[\protect\citeauthoryear{Hall \bgroup et al\mbox.\egroup
+  }{2009}]{hall2009weka}
+Hall, M.; Frank, E.; Holmes, G.; Pfahringer, B.; Reutemann, P.; and Witten,
+  I.~H.
+\newblock 2009.
+\newblock The weka data mining software: An update.
+\newblock {\em SIGKDD Explor. Newsl.} 11(1):10--18.
+
+\bibitem[\protect\citeauthoryear{Kordjamshidi, Roth, and
+  Kersting}{2018}]{kordjamshidi2018systems}
+Kordjamshidi, P.; Roth, D.; and Kersting, K.
+\newblock 2018.
+\newblock Systems ai: A declarative learning based programming perspective.
+\newblock In {\em Proceedings of the Twenty-Seventh International Joint
+  Conference on Artificial Intelligence, {IJCAI-18}},  5464--5471.
+\newblock International Joint Conferences on Artificial Intelligence
+  Organization.
+
+\bibitem[\protect\citeauthoryear{Lemaître, Nogueira, and
+  Aridas}{2017}]{lemaitre2017imbalancedlearn}
+Lemaître, G.; Nogueira, F.; and Aridas, C.~K.
+\newblock 2017.
+\newblock Imbalanced-learn: A python toolbox to tackle the curse of imbalanced
+  datasets in machine learning.
+\newblock {\em Journal of Machine Learning Research} 18(17):1--5.
+
+\bibitem[\protect\citeauthoryear{Malec \bgroup et al\mbox.\egroup
+  }{2017}]{malec2017inductive}
+Malec, M.; Khot, T.; Nagy, J.; Blask, E.; and Natarajan, S.
+\newblock 2017.
+\newblock Inductive logic programming meets relational databases: Efficient
+  learning of markov logic networks.
+\newblock In Cussens, J., and Russo, A., eds., {\em Inductive Logic
+  Programming},  14--26.
+\newblock Springer International Publishing.
+
+\bibitem[\protect\citeauthoryear{Natarajan \bgroup et al\mbox.\egroup
+  }{2018}]{natarajan2018human}
+Natarajan, S.; Odom, P.; Khot, T.; Kersting, K.; and Shavlik, J.
+\newblock 2018.
+\newblock Human-in-the-loop learning for probabilistic programming.
+\newblock {\em Proceedings of the Inaugural International Conference on
+  Probabilistic Programming}.
+
+\bibitem[\protect\citeauthoryear{Odom and Natarajan}{2018}]{odom2018human}
+Odom, P., and Natarajan, S.
+\newblock 2018.
+\newblock Human-guided learning for probabilistic logic models.
+\newblock {\em Frontiers in Robotics and AI} 5:56.
+
+\bibitem[\protect\citeauthoryear{Paszke \bgroup et al\mbox.\egroup
+  }{2017}]{paszke2017pytorch}
+Paszke, A.; Gross, S.; Chintala, S.; Chanan, G.; Yang, E.; DeVito, Z.; Lin, Z.;
+  Desmaison, A.; Antiga, L.; and Lerer, A.
+\newblock 2017.
+\newblock Automatic differentiation in {PyTorch}.
+\newblock In {\em NIPS Autodiff Workshop}.
+
+\bibitem[\protect\citeauthoryear{Pedregosa \bgroup et al\mbox.\egroup
+  }{2011}]{pedregosa2011scikit}
+Pedregosa, F.; Varoquaux, G.; Gramfort, A.; Michel, V.; Thirion, B.; Grisel,
+  O.; Blondel, M.; Prettenhofer, P.; Weiss, R.; Dubourg, V.; Vanderplas, J.;
+  Passos, A.; Cournapeau, D.; Brucher, M.; Perrot, M.; and Duchesnay, E.
+\newblock 2011.
+\newblock Scikit-learn: Machine learning in {P}ython.
+\newblock {\em Journal of Machine Learning Research} 12:2825--2830.
+
+\bibitem[\protect\citeauthoryear{Srinivasan}{2000}]{srinivasan2004aleph}
+Srinivasan, A.
+\newblock 2000.
+\newblock {The Aleph Manual}.
+\newblock Technical report, Computing Laboratory, Oxford University, Oxford,
+  UK.
+\newblock https://www.cs.ox.ac.uk/activities/programinduction/Aleph/.
+
+\bibitem[\protect\citeauthoryear{Sutton and
+  McCallum}{2007}]{sutton2007inductive}
+Sutton, C., and McCallum, A.
+\newblock 2007.
+\newblock {\em An Introduction to Conditional Random Fields for Relational
+  Learning}.
+\newblock Cambridge, Massachusetts: MIT Press.
+\newblock chapter~4,  93--127.
+\newblock in: Introduction to Statistical Relational Learning.
+
+\end{thebibliography}
