@@ -1,17 +1,15 @@
 # srlearn: A Python Library for Gradient-Boosted Statistical Relational Models
 
-<center>
-<a href="https://hayesall.com">Alexander L. Hayes</a><br>
-<a href="https://prohealth.sice.indiana.edu">ProHealth Lab</a><br>
-Indiana University Bloomington<br>
+[Alexander L. Hayes](https://hayesall.com)  
+[ProHealth Lab](https://prohealth.sice.indiana.edu)  
+Indiana University Bloomington  
 hayesall@iu.edu
-</center>
 
-## Abstract
+**Accepted** at the [Ninth International Workshop on Statistical Relational AI](http://www.starai.org/2020/).
 
-> We present `srlearn`, a Python library for boosted statistical relational
-> models. We adapt the scikit-learn interface to this setting and provide
-> examples for how this can be used to express learning and inference problems.
+**Please contact Alexander** at `hayesall@iu.edu` with any questions.
+This repository is aimed at hosting supplementary material, and may not be
+updated significantly in the future.
 
 ## Overview
 
@@ -19,10 +17,40 @@ This repository contains a copy of the submitted PDF, the LaTeX source to
 reproduce the PDF, scripts to reproduce the "Experiments" subsection, links,
 and additional material that did not make it into the workshop paper.
 
-- [`srlearn` GitHub Repository](https://github.com/hayesall/srlearn)
+### Paper
 
-Please contact Alexander at `hayesall@iu.edu` with any questions. Issues
-are disabled for this repository.
+- [📄 Read Online](https://github.com/hayesall/srlearn-StarAI-2020-workshop/blob/master/paper/hayesall_srlearn.pdf)
+  - [Preprint - arXiv:1912.08198 [cs.LG]](https://arxiv.org/abs/1912.08198)
+  - [DeepAI Publication Page](https://deepai.org/publication/srlearn-a-python-library-for-gradient-boosted-statistical-relational-models)
+- [📥 Download a PDF](https://github.com/hayesall/srlearn-StarAI-2020-workshop/raw/master/paper/hayesall_srlearn.pdf)
+
+### Software
+
+Results of the paper are based on [`srlearn==0.5.0`](https://pypi.org/project/srlearn/0.5.0/)
+
+Please consider starring 🌟 the
+[`srlearn` GitHub Repository](https://github.com/hayesall/srlearn)
+repository. It's an open-source project, so any feedback or recommendations are
+appreciated.
+
+### Experiments
+
+Scripts for reproducing *Table 1* are contained in the `experiments/` directory.
+
+- [`experiments/` directory](https://github.com/hayesall/srlearn-StarAI-2020-workshop/tree/master/experiments/datasets/)
+
+## Citing
+
+If you build on this code or the ideas of the paper, please consider citing:
+
+```bibtex
+@article{hayes2020srlearn,
+  author = {Alexander L. Hayes},
+  title = {{srlearn: A Python Library for Gradient-Boosted Statistical Relational Models}},
+  year = {2020},
+  journal = {Ninth International Workshop on Statistical Relational AI}
+}
+```
 
 ## Acknowledgements
 

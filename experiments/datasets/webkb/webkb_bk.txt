@@ -1,0 +1,12 @@
+setParam: nodeSize=2.
+setParam: maxTreeDepth=3.
+setParam: numberOfClauses=100.
+setParam: numberOfCycles=100.
+mode: courseprof(-Course, +Person).
+mode: courseprof(+Course, -Person).
+mode: courseta(+Course, -Person).
+mode: courseta(-Course, +Person).
+mode: faculty(+Person).
+mode: project(-Proj, +Person).
+mode: project(+Proj, -Person).
+mode: sameperson(-Person, +Person).

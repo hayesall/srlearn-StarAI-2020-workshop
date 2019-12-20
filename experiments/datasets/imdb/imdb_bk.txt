@@ -1,0 +1,16 @@
+setParam: nodeSize=2.
+setParam: maxTreeDepth=3.
+setParam: numberOfClauses=100.
+setParam: numberOfCycles=100.
+mode: actor(+person).
+mode: movie(+movie, +person).
+mode: movie(+movie, -person).
+mode: movie(-movie, +person).
+mode: female_gender(+person).
+mode: genre(+person, +genre).
+mode: genre(+person, #genre).
+mode: genre(+person, -genre).
+mode: genre(-person, +genre).
+mode: workedunder(+person, +person).
+mode: workedunder(+person, -person).
+mode: workedunder(-person, +person).

@@ -1,0 +1,27 @@
+setParam: nodeSize=2.
+setParam: maxTreeDepth=3.
+setParam: numberOfClauses=100.
+setParam: numberOfCycles=100.
+mode: advisedby(+Person, +Person).
+mode: courselevel(+Course, #Level).
+mode: courselevel(+Course, +Level).
+mode: hasposition(+Person, #Position).
+mode: inphase(+Person, #Phase).
+mode: professor(+Person).
+mode: projectmember(-Project, +Person).
+mode: projectmember(+Project, -Person).
+mode: publication(-Title, +Person).
+mode: publication(+Title, -Person).
+mode: samecourse(+Course, +Course).
+mode: sameperson(+Person, +Person).
+mode: sameproject(+Project, +Project).
+mode: student(+Person).
+mode: ta(-Course, +Person, -Quarter).
+mode: ta(+Course, -Person, +Quarter).
+mode: ta(+Course, +Person, -Quarter).
+mode: taughtby(-Course, +Person, -Quarter).
+mode: taughtby(+Course, -Person, +Quarter).
+mode: taughtby(+Course, +Person, -Quarter).
+mode: tempadvisedby(-Person, +Person).
+mode: tempadvisedby(+Person, -Person).
+mode: yearsinprogram(+Person, #Integer).
