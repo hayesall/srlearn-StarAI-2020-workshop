@@ -37,7 +37,7 @@ appreciated.
 
 Scripts for reproducing *Table 1* are contained in the `experiments/` directory.
 
-- [`experiments/` directory](https://github.com/hayesall/srlearn-StarAI-2020-workshop/tree/master/experiments/datasets/)
+- [`experiments/` directory](https://github.com/hayesall/srlearn-StarAI-2020-workshop/tree/master/experiments/)
 
 ## Citing
 
