@@ -1,4 +1,5 @@
 # Copyright 2019 Alexander L. Hayes
+# MIT License
 
 for i in $(seq 1 10); do
 

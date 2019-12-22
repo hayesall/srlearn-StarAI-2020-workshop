@@ -1,4 +1,5 @@
 # Copyright © 2019 Alexander L. Hayes
+# MIT License
 
 from srlearn.rdn import BoostedRDN
 from srlearn import Database

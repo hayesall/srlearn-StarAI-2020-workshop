@@ -2,6 +2,9 @@
 
 This directory includes the scripts used to reproduce "Table 1."
 
+All scripts are made available under the terms of the `MIT License`. A copy of
+the license is contained in this directory.
+
 ## Setup
 
 The results presented in this workshop were based on the
